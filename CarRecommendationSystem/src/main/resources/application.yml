@@ -13,4 +13,4 @@ gemini:
   api:
     url: https://generativelanguage.googleapis.com/v1beta/models
     model: gemini-1.5-flash
-    key: ${GEMINI_API_KEY:}
+    key: ${GEMINI_API_KEY}
