@@ -22,7 +22,8 @@ public class CorsConfig {
         // Allow the Vite frontend origin
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "http://127.0.0.1:5173"
+                "http://127.0.0.1:5173",
+                "https://car-dekho-samprita.netlify.app"
         ));
 
         // Allow all standard HTTP methods
