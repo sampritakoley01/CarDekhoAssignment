@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: carrec
+  jackson:
+    property-naming-strategy: LOWER_CAMEL_CASE
+    serialization:
+      indent_output: false
+
+gemini:
+  api:
+    url: https://generativelanguage.googleapis.com/v1beta/models
+    model: gemini-1.5-flash
+    key: ${GEMINI_API_KEY:}
